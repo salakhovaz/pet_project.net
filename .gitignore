@@ -16,7 +16,6 @@
 # Mono auto generated files
 mono_crash.*
 .mono/
-.mono/registry/CurrentUser/software/microsoft/csdevkit/v1/pids/1154197_133586979094854984/values.xml
 
 # Build results
 [Dd]ebug/
