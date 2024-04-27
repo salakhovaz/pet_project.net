@@ -1,0 +1,6 @@
+@pet_project.net.Tasks.Host_HostAddress = http://localhost:5206
+
+GET {{pet_project.net.Tasks.Host_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
