@@ -4,14 +4,76 @@
     "/home/user/prjr/otus_cs/pet_project.net/pet_project.net.Tasks/src/pet_project.net.Tasks.Infrastructure/pet_project.net.Tasks.Infrastructure.csproj": {}
   },
   "projects": {
-    "/home/user/prjr/otus_cs/pet_project.net/pet_project.net.Tasks/src/pet_project.net.Tasks.Infrastructure/pet_project.net.Tasks.Infrastructure.csproj": {
+    "/home/user/prjr/otus_cs/pet_project.net/pet_project.net.Tasks/src/pet_project.net.Tasks.Application/pet_project.net.Tasks.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/user/prjr/otus_cs/pet_project.net/pet_project.net.Tasks/src/pet_project.net.Tasks.Infrastructure/pet_project.net.Tasks.Infrastructure.csproj",
-        "projectName": "pet_project.net.Tasks.Infrastructure",
-        "projectPath": "/home/user/prjr/otus_cs/pet_project.net/pet_project.net.Tasks/src/pet_project.net.Tasks.Infrastructure/pet_project.net.Tasks.Infrastructure.csproj",
+        "projectUniqueName": "/home/user/prjr/otus_cs/pet_project.net/pet_project.net.Tasks/src/pet_project.net.Tasks.Application/pet_project.net.Tasks.Application.csproj",
+        "projectName": "pet_project.net.Tasks.Application",
+        "projectPath": "/home/user/prjr/otus_cs/pet_project.net/pet_project.net.Tasks/src/pet_project.net.Tasks.Application/pet_project.net.Tasks.Application.csproj",
         "packagesPath": "/home/user/.nuget/packages/",
-        "outputPath": "/home/user/prjr/otus_cs/pet_project.net/pet_project.net.Tasks/src/pet_project.net.Tasks.Infrastructure/obj/",
+        "outputPath": "/home/user/prjr/otus_cs/pet_project.net/pet_project.net.Tasks/src/pet_project.net.Tasks.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/user/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/user/prjr/otus_cs/pet_project.net/pet_project.net.Tasks/src/pet_project.net.Tasks.Domain/pet_project.net.Tasks.Domain.csproj": {
+                "projectPath": "/home/user/prjr/otus_cs/pet_project.net/pet_project.net.Tasks/src/pet_project.net.Tasks.Domain/pet_project.net.Tasks.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/user/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/user/prjr/otus_cs/pet_project.net/pet_project.net.Tasks/src/pet_project.net.Tasks.Domain/pet_project.net.Tasks.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/user/prjr/otus_cs/pet_project.net/pet_project.net.Tasks/src/pet_project.net.Tasks.Domain/pet_project.net.Tasks.Domain.csproj",
+        "projectName": "pet_project.net.Tasks.Domain",
+        "projectPath": "/home/user/prjr/otus_cs/pet_project.net/pet_project.net.Tasks/src/pet_project.net.Tasks.Domain/pet_project.net.Tasks.Domain.csproj",
+        "packagesPath": "/home/user/.nuget/packages/",
+        "outputPath": "/home/user/prjr/otus_cs/pet_project.net/pet_project.net.Tasks/src/pet_project.net.Tasks.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/user/.nuget/NuGet/NuGet.Config"
@@ -42,6 +104,90 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.1, )"
+            },
+            "MediatR.Contracts": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/user/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/user/prjr/otus_cs/pet_project.net/pet_project.net.Tasks/src/pet_project.net.Tasks.Infrastructure/pet_project.net.Tasks.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/user/prjr/otus_cs/pet_project.net/pet_project.net.Tasks/src/pet_project.net.Tasks.Infrastructure/pet_project.net.Tasks.Infrastructure.csproj",
+        "projectName": "pet_project.net.Tasks.Infrastructure",
+        "projectPath": "/home/user/prjr/otus_cs/pet_project.net/pet_project.net.Tasks/src/pet_project.net.Tasks.Infrastructure/pet_project.net.Tasks.Infrastructure.csproj",
+        "packagesPath": "/home/user/.nuget/packages/",
+        "outputPath": "/home/user/prjr/otus_cs/pet_project.net/pet_project.net.Tasks/src/pet_project.net.Tasks.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/user/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/user/prjr/otus_cs/pet_project.net/pet_project.net.Tasks/src/pet_project.net.Tasks.Application/pet_project.net.Tasks.Application.csproj": {
+                "projectPath": "/home/user/prjr/otus_cs/pet_project.net/pet_project.net.Tasks/src/pet_project.net.Tasks.Application/pet_project.net.Tasks.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

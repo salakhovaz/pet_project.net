@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>pet_project.net.Tasks.Domain</RootNamespace>
+    <AssemblyName>pet_project.net.Tasks.Domain</AssemblyName>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
