@@ -6,5 +6,5 @@ public class TaskItem : BaseAuditableEntity
     public string? Title { get; set; }
     public string? Note { get; set; }
     public PriorityLevel Priority { get; set; } = PriorityLevel.None;
-    public TaskStatus Status { get; set; } = TaskStatus.ToDo;
+    public StatusTask Status { get; set; } = StatusTask.ToDo;
 }

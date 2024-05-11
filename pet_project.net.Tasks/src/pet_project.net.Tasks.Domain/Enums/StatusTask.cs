@@ -1,6 +1,6 @@
 namespace pet_project.net.Tasks.Domain.Enums;
 
-public enum TaskStatus
+public enum StatusTask
 {
     ToDo = 0,
     InProgress = 1,
