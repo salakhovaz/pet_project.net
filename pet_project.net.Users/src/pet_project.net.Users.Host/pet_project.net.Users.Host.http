@@ -1,0 +1,6 @@
+@pet_project.net.Users.Host_HostAddress = http://localhost:5030
+
+GET {{pet_project.net.Users.Host_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
